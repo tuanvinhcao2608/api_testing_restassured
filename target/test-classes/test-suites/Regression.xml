@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="1" >
+    <test name="Jira - issue E2E" >
+        <classes>
+            <class name="test.JiraIssueCRUD_02" />
+        </classes>
+    </test>
+
+
+</suite>
